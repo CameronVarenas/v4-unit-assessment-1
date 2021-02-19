@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+var gitDefinition = 'Git is used to log changes in code.'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+var gitHubDefinition = 'GitHub is a "cloud" for programmers and their code. Used to log changes in code, as well as, to fork and clone others code for ones individual use.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: 'Creates an empty Git repository',
+    code: 'git init',
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'Clones an existing GitHub repository and stores the files on your system',
+    code: 'git clone (GitHub repository url)',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: 'Shows the status of your current directory. Displays all changes made to your files that have not been pushed up to GitHub',
+    code: 'git status',
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: 'Adds files to the staging area to then be pushed up to GitHub',
+    code: 'git add .    or     git add practice-js-2.js',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'Commit takes all currently staged changes and saves them into a new version of the project',
+    code: 'git commit -m""',
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: 'Used to view connections to other repositories',
+    code: 'git remote add origin',
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'Push allows you to transfer committed files from your local system to a remote repository',
+    code: 'git push',
+}
