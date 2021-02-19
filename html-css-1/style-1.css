@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: inline-block;
+    background-color: rgb(245, 140, 140);
+    width: 100%;
+    height: 15vh;
+    box-shadow: 2px 2px 2px black;
+}
+
+.headerWords {
+    padding: 50px;
+    display: inline-block;
+}
+
+.options {
+    font-weight: lighter;
+}
+
+.htmlBox {
+    height: 39vh;
+    border: 5px dotted black;
+    margin: 10px;
+}
+
+#h1 {
+    font-size: 150%;
+}
+
+.content1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+}
+
+#img1 {
+    float: left;
+}
+
+.cssBox {
+    height: 39vh;
+    border: 5px dotted black;
+    margin: 10px;
+}
+
+#h2 {
+    font-size: 150%;
+}
+
+.content2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19px;
+}
+
+#img2 {
+    float: right;
+}
